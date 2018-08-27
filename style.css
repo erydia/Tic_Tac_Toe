@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    margin-top: 30px;
+    width: 302px;
+    height: 302px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.button {
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.box {
+    font-size: 80px;
+    text-align: center;
+    transition: 0.4s linear all;
+}
+
+.score {
+    margin-top: 70px;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+.player {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.victory-color {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.opacity-0 {
+    opacity: 0;
+}
